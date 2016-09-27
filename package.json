@@ -1,4 +1,25 @@
 {
+  "name": "big-n",
+  "description": "A library for arbitrary-precision decimal arithmetic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godfreycgs/big-n.git"
+  },
+  "keywords": [
+    "bignum"
+  ],
+  "author": "godfrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godfreycgs/big-n/issues"
+  },
+  "homepage": "https://github.com/godfreycgs/big-n#readme",
   "dependencies": {},
   "scripts": {
     "test": "tape test/*.js"
