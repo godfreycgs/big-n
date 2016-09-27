@@ -117,7 +117,6 @@ function toString(bignum) {
 
       bignum[digit + 1] += i
       result = String(value % 10) + result
-
     }
   }
 
@@ -136,10 +135,10 @@ function isNegative(n) {
   return /^\-[0-9]+/.test(n)
 }
 
-function getMaxDigit(obj) {
+function getMaxDigit(bignum) {
   let maxDigit = 0
 
-  for (let i in obj) {
+  for (let i in bignum) {
     if (isNumber(i)) {
       if (i > maxDigit) {
         maxDigit = i
